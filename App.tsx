@@ -6,7 +6,8 @@ import {
 import axios from 'axios';
 import { StatusBar } from 'expo-status-bar';
 import {
-    FlatList
+    Button
+    , FlatList
     , SafeAreaView
     , StyleSheet
     , Text
@@ -26,7 +27,13 @@ const MainComp = () => {
             <FlatList
                 data={ data }
                 renderItem={ ( { item } ) => (
-                    <Text>{ item.title }</Text>
+                    <>
+                        <Text>{ item.title }</Text>
+                        <Button
+                            title='Click Me'
+                            color='red'
+                        />
+                    </>
                 ) }
             />
             <StatusBar style='auto' />
