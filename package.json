@@ -9,6 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.28.4",
+    "axios": "^1.6.8",
     "expo": "~50.0.13",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
@@ -20,6 +22,8 @@
     "@types/jest": "^29.5.12",
     "@types/react": "^18.2.67",
     "@types/react-test-renderer": "^18.0.7",
+    "eslint": "^8.57.0",
+    "johnsonav-eslint-config": "^0.0.4",
     "typescript": "^5.4.2"
   },
   "private": true
